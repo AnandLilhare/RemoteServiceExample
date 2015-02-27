@@ -24,7 +24,7 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
         Intent intent=new Intent(getApplicationContext(),RemoteService.class);
         bindService(intent,connetction, Context.BIND_AUTO_CREATE);
-
+            // add services demo
     }
     public void sendMessage(View view)
     {
